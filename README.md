@@ -1,13 +1,28 @@
 # Stretch
 
-VB6 GDI StretchBlt demo (`Project1`): copies/scales a source picture (and Get Icon) into a destination PictureBox using `StretchBlt` / SRCCOPY. Open `Stretch.vbp` in the VB6 IDE.
+VB6 GDI StretchBlt demo (`Project1`): copies and scales a source picture (or an icon via Get Icon) into a destination PictureBox using `StretchBlt` with SRCCOPY. Startup is `Sub Main` in `Stretch.bas`, which shows `frmStretch`. Open `Stretch.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
-
-_Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip transfer; date above uses best available evidence (headers/copyright where helpful)._
+**Source last updated:** 1998-01-24 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
 ## Solution structure
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
 | `Project1` (`Stretch.vbp`) | VB6 | WinForms exe | StretchBlt image scale/copy demo |
+
+## How to open
+
+Open the `.vbp` in Visual Basic 6.0 IDE:
+- `Stretch.vbp`
+
+## Requirements
+
+- Visual Basic 6.0 IDE
+
+## Attribution and provenance
+
+Working copy from my Historical Dev folder `VB/Old/Stretch`. Project company field: Chips, Bits and Bytes.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
